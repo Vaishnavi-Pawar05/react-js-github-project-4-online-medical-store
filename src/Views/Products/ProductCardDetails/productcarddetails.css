@@ -12,7 +12,8 @@
 }
 .product-details-info{
     margin-left: 20px;
-    /* background-color: blanchedalmond; */
+    /* background-color: rgb(238, 238, 238);    */
+    width: 1000px;
 }
 .deatailpage-product-image{
     margin-top: 10px;
