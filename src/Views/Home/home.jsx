@@ -104,6 +104,13 @@ const Home = () => {
     price: 4.99,
     image: 'https://images.unsplash.com/photo-1603398938378-e54eab446dde?auto=format&fit=crop&w=400&q=80',
     description: 'For minor injuries'
+  },
+   {
+    id: 15,
+    name: 'Calcium Tablets',
+    price: 14.50,
+    image: 'https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=400&q=80',
+    description: 'Strong bones support'
   }
 ];
 
