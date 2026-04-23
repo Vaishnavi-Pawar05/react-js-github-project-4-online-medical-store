@@ -12,3 +12,11 @@
     text-align: center;
     font-weight: 3px;
 }
+.buy-now-btn{
+    cursor:pointer;
+    background-color: rgb(74, 74, 117);
+    color:white;
+    border:none;
+    text-align: center;
+    font-weight: 3px;
+}

@@ -10,7 +10,7 @@ function ProductCard({ product }) {
         <div className="product-card">
             <img src={product.images?.[0]} alt={product.name} className="product-image" />
             <p>{product.name}</p>
-            <p>{product.description}</p>
+            <p>{product.subSentence}</p>
             <p>Price: ${product.price.toFixed(2)}</p>
 
             <Button title={"Know More"} className="know-more-btn" onClick={()=>
