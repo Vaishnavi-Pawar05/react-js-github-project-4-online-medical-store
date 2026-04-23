@@ -147,11 +147,7 @@ const Home = () => {
       </section>
 
       <section className="products-section">
-        <div className="section-header">
-          <h2>Featured Products</h2>
-          <p>Shop our best-selling medical products</p>
-        </div>
-
+       
         <div className="products-grid">
           {products.map(product => (
             <div key={product.id} className="product-card">
