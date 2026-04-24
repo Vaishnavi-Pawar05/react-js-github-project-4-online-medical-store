@@ -125,9 +125,10 @@
   margin-top: 10px;
 }
 
-.product-price {
+.home-product-price {
   color: #2ecc71;
   font-weight: bold;
+  padding-right: 5px;
 }
 
 .add-btn {

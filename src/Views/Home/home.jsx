@@ -169,7 +169,7 @@ const Home = () => {
                 <h3>{product.name}</h3>
                 <p className="product-desc">{product.description}</p>
                 <div className="product-footer">
-                  <span className="product-price">${product.price.toFixed(2)}</span>
+                  <span className="home-product-price">${product.price.toFixed(2)}</span>
                   <button
                     className="add-btn"
                     onClick={() => handleAddToCart(product.name)}

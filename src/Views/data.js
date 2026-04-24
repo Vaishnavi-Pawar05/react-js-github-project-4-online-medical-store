@@ -8,10 +8,10 @@ const PRODUCTS = [
     "minGram": 500,
     "maxGram": 1000,
     "images": [
-      "https://via.placeholder.com/300x300?text=Paracetamol+1",
-      "https://via.placeholder.com/300x300?text=Paracetamol+2",
-      "https://via.placeholder.com/300x300?text=Paracetamol+3",
-      "https://via.placeholder.com/300x300?text=Paracetamol+4"
+      "https://5.imimg.com/data5/SELLER/Default/2024/3/402898852/DG/BG/MD/45418571/500mg-paracetamol-tablet-500x500.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2023/10/349824765/ZG/EJ/YC/45418571/pcd-pharma-franchise-in-himachal-pradesh-1000x1000.jpeg",
+      "https://5.imimg.com/data5/SELLER/Default/2021/12/PZ/BK/YG/45418571/paradak-500-1000x1000.JPG",
+      "https://icdn.tnmeds.com/cache/data/tnimages/14888-500x500.jpg"
     ]
   },
   {
@@ -23,10 +23,10 @@ const PRODUCTS = [
     "minGram": 500,
     "maxGram": 650,
     "images": [
-      "https://via.placeholder.com/300x300?text=Crocin+1",
-      "https://via.placeholder.com/300x300?text=Crocin+2",
-      "https://via.placeholder.com/300x300?text=Crocin+3",
-      "https://via.placeholder.com/300x300?text=Crocin+4"
+      "https://meds.myupchar.com/126765/da8c8db73d2c48d8807c76b912891592.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2025/8/539521883/DO/UE/VU/17376909/crocin-advance-tablet-500x500.jpg",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/539523915/JI/OM/PY/17376909/crocin-advance-tablet-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/539523918/UU/OP/DD/17376909/crocin-advance-tablet-1000x1000.png"
     ]
   },
   {
@@ -38,10 +38,10 @@ const PRODUCTS = [
     "minGram": 120,
     "maxGram": 250,
     "images": [
-      "https://via.placeholder.com/300x300?text=Calpol+1",
-      "https://via.placeholder.com/300x300?text=Calpol+2",
-      "https://via.placeholder.com/300x300?text=Calpol+3",
-      "https://via.placeholder.com/300x300?text=Calpol+4"
+       "https://www.thefamilychemist.co.uk/wp-content/uploads/2022/05/calpol-6-suspension-80ml.jpg",
+      "https://c7.alamy.com/comp/2B89AB9/calpol-sixplus-with-syringe-on-isolated-white-background-2B89AB9.jpg",
+      "https://c7.alamy.com/comp/A3MM4A/close-up-vertical-portrait-of-girl-taking-medicine-from-a-spoon-A3MM4A.jpg",
+      "https://c7.alamy.com/comp/2B89ABC/calpol-sixplus-box-on-isolated-white-background-2B89ABC.jpg"
     ]
   },
   {
@@ -52,11 +52,9 @@ const PRODUCTS = [
     "price": 40,
     "minGram": 200,
     "maxGram": 400,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Ibuprofen+1",
-      "https://via.placeholder.com/300x300?text=Ibuprofen+2",
-      "https://via.placeholder.com/300x300?text=Ibuprofen+3",
-      "https://via.placeholder.com/300x300?text=Ibuprofen+4"
+    "images": ["https://pics.walgreens.com/prodimg/644980/450.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJLfZdQJ5Yz0KwvOLSZDXpF9IMaGi9zjrt1A&s",
+      "https://assets.poison.org/1116x837/b6e1c5d05f/ibuprofen-in-glass.jpg/m/640x0/filters:quality(70):format(webp)"
     ]
   },
   {
@@ -68,10 +66,10 @@ const PRODUCTS = [
     "minGram": 400,
     "maxGram": 650,
     "images": [
-      "https://via.placeholder.com/300x300?text=Combiflam+1",
-      "https://via.placeholder.com/300x300?text=Combiflam+2",
-      "https://via.placeholder.com/300x300?text=Combiflam+3",
-      "https://via.placeholder.com/300x300?text=Combiflam+4"
+      "https://assets.truemeds.in/Images/ProductImage/TM-TACR1-009412/combiflam-tablet-20_combiflam-tablet-20--TM-TACR1-009412_3.png?width=320",
+      "https://assets.truemeds.in/Images/ProductImage/TM-TACR1-009412/combiflam-tablet-20_combiflam-tablet-20--TM-TACR1-009412_1.png?width=320",
+      "https://assets.truemeds.in/Images/ProductImage/TM-TACR1-009412/combiflam-tablet-20_combiflam-tablet-20--TM-TACR1-009412_2.png?width=320",
+      "https://assets.truemeds.in/Images/ProductImage/TM-TACR1-009412/combiflam-tablet-20_combiflam-tablet-20--TM-TACR1-009412_4.png?width=320"
     ]
   },
   {
@@ -83,25 +81,10 @@ const PRODUCTS = [
     "minGram": 8,
     "maxGram": 25,
     "images": [
-      "https://via.placeholder.com/300x300?text=Benadryl+1",
-      "https://via.placeholder.com/300x300?text=Benadryl+2",
-      "https://via.placeholder.com/300x300?text=Benadryl+3",
-      "https://via.placeholder.com/300x300?text=Benadryl+4"
-    ]
-  },
-  {
-    "productId": "7",
-    "name": "Corex",
-    "subSentence": "Cough syrup for relief",
-    "description": "Corex is a cough syrup that helps in relieving dry cough and throat irritation.",
-    "price": 55,
-    "minGram": 100,
-    "maxGram": 200,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Corex+1",
-      "https://via.placeholder.com/300x300?text=Corex+2",
-      "https://via.placeholder.com/300x300?text=Corex+3",
-      "https://via.placeholder.com/300x300?text=Corex+4"
+      "https://images.ctfassets.net/t975yazu1avh/7xD9MJW7WCCauOzBkJ8jHx/a967b5d45cfac56a7e772bc8d6e5eef9/BEN_Allergy_ES_Tabs_CLA1.webp?fm=webp&w=640",
+      "https://images.ctfassets.net/t975yazu1avh/5XV5yzc3WvPyqndcUGpGQE/52151809595af1a49b3c73a081e0d61a/BEN_300450235244_US_Allergy_Extra_Strength_Tablets_24CT_00000_Original-file.webp?fm=webp&w=3840",
+      "https://images.ctfassets.net/t975yazu1avh/6Q1VR98lPTAWK6zK9XB4XE/227f049312df9b48cb0be041379c93ef/benadryl-extra-strength-tablets-package-back.webp?fm=webp&w=640",
+      "https://images.ctfassets.net/t975yazu1avh/1kleSAyLEOrMXuR2ENOHXW/a0f71d5f7000520ef2b5d9adb5276838/BEN_Allergy_ES_Tabs_BEN1.webp?fm=webp&w=640"
     ]
   },
   {
@@ -113,10 +96,10 @@ const PRODUCTS = [
     "minGram": 100,
     "maxGram": 200,
     "images": [
-      "https://via.placeholder.com/300x300?text=Ascoril+1",
-      "https://via.placeholder.com/300x300?text=Ascoril+2",
-      "https://via.placeholder.com/300x300?text=Ascoril+3",
-      "https://via.placeholder.com/300x300?text=Ascoril+4"
+      "https://res.cloudinary.com/tripleaim-software/image/upload/c_scale,w_184,f_auto/v1667244853/drugImages/ascoril-d_qxw87y.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQyaKfn6pnCcXWyunMklcVnD4GvMQJDRETA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLNHfokQnm1U2AX3Vg-_CWYqE1qPB2vdeJTQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaJy6rZ5UMX_eiuqzm9lLqLhdqIwlCfyrrxg&s"
     ]
   },
   {
@@ -128,10 +111,10 @@ const PRODUCTS = [
     "minGram": 500,
     "maxGram": 650,
     "images": [
-      "https://via.placeholder.com/300x300?text=Vicks+Action+500+1",
-      "https://via.placeholder.com/300x300?text=Vicks+Action+500+2",
-      "https://via.placeholder.com/300x300?text=Vicks+Action+500+3",
-      "https://via.placeholder.com/300x300?text=Vicks+Action+500+4"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIvEJkkwgLXXSgPm59H8V_JgZVqKwGNB-QiA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuZRqAF9HjCH7KaAzfA7FcOstGZi7HmHRnmQ&s",
+      "https://www.bbassets.com/media/uploads/p/xl/40208833_3-vicks-action-500-advanced.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Zl5jRsGbMHDA-GZhx8OAX3R43JL7vgxmZQ&s"
     ]
   },
   {
@@ -143,10 +126,10 @@ const PRODUCTS = [
     "minGram": 250,
     "maxGram": 500,
     "images": [
-      "https://via.placeholder.com/300x300?text=Amoxicillin+1",
-      "https://via.placeholder.com/300x300?text=Amoxicillin+2",
-      "https://via.placeholder.com/300x300?text=Amoxicillin+3",
-      "https://via.placeholder.com/300x300?text=Amoxicillin+4"
+      "https://5.imimg.com/data5/SELLER/Default/2022/9/FT/AS/TY/132158408/amoxicillin-tablets-500-mg-500x500.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_oM713nsr_adjF5kP2tPAsGh4MsvlbTQssg&s",
+      "https://5.imimg.com/data5/SELLER/Default/2022/11/TH/KE/CK/82036934/amoxicillin-250-mg-capsules-500x500.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtqDNV4KAcXn7AmDN2sVFDH828lDB3FHzbWQ&s"
     ]
   },
   {
@@ -158,10 +141,9 @@ const PRODUCTS = [
     "minGram": 250,
     "maxGram": 500,
     "images": [
-      "https://via.placeholder.com/300x300?text=Azithromycin+1",
-      "https://via.placeholder.com/300x300?text=Azithromycin+2",
-      "https://via.placeholder.com/300x300?text=Azithromycin+3",
-      "https://via.placeholder.com/300x300?text=Azithromycin+4"
+      "https://www.mountainside-medical.com/cdn/shop/files/Azithromycin-250-mg-Tablets-by-Teva-Pharmaceuticals-NDC-50111-0787-10_465x465.jpg?v=1767121754",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROsyI6VtKlafoATUGCATWE42drdTGj2LOPMw&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmlHP7XqjTBQOl-FNMH_6_ccPcz0CUxOuI3g&s",
     ]
   },
   {
@@ -173,10 +155,9 @@ const PRODUCTS = [
     "minGram": 250,
     "maxGram": 500,
     "images": [
-      "https://via.placeholder.com/300x300?text=Ciprofloxacin+1",
-      "https://via.placeholder.com/300x300?text=Ciprofloxacin+2",
-      "https://via.placeholder.com/300x300?text=Ciprofloxacin+3",
-      "https://via.placeholder.com/300x300?text=Ciprofloxacin+4"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLq4umS5CZPxbs5_bTbBBdbjkk_uWH7YlGpw&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfz0N86Cuh5GnsB-moVWkleaI46WgRR13xEQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtd7fKYrHwKWW3tv4SS8vmDp40JXi1m6uOiQ&s",
     ]
   },
   {
@@ -188,10 +169,9 @@ const PRODUCTS = [
     "minGram": 500,
     "maxGram": 1000,
     "images": [
-      "https://via.placeholder.com/300x300?text=Vitamin+C+1",
-      "https://via.placeholder.com/300x300?text=Vitamin+C+2",
-      "https://via.placeholder.com/300x300?text=Vitamin+C+3",
-      "https://via.placeholder.com/300x300?text=Vitamin+C+4"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT9YfGA_NnPliNJK83mWNSdEmXOMs5d1_N4Q&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0HR8EYidnD4aDMHrVxd-q1nVwaR2ILp7Mww&s",
+      "https://m.media-amazon.com/images/I/710OFbun3cL._SY450_.jpg",
     ]
   },
   {
@@ -203,10 +183,9 @@ const PRODUCTS = [
     "minGram": 15,
     "maxGram": 45,
     "images": [
-      "https://via.placeholder.com/300x300?text=Zincovit+1",
-      "https://via.placeholder.com/300x300?text=Zincovit+2",
-      "https://via.placeholder.com/300x300?text=Zincovit+3",
-      "https://via.placeholder.com/300x300?text=Zincovit+4"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhDwtC9PLDUkTLrCANrZFFzrOnRSik4LgpxQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqSXnNW5HvUhXoXS__UYOLLvU1KUMEsFgc7g&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7aSmMocBGvfXDcNn7zFG52aG-5k_nUMrStQ&s",
     ]
   },
   {
@@ -218,10 +197,10 @@ const PRODUCTS = [
     "minGram": 30,
     "maxGram": 60,
     "images": [
-      "https://via.placeholder.com/300x300?text=Revital+H+1",
-      "https://via.placeholder.com/300x300?text=Revital+H+2",
-      "https://via.placeholder.com/300x300?text=Revital+H+3",
-      "https://via.placeholder.com/300x300?text=Revital+H+4"
+      "https://rukmini1.flixcart.com/image/1500/1500/xif0q/vitamin-supplement/8/v/c/-original-imahbf6qkq4bqcgw.jpeg?q=70",
+      "https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-men-complete-multivitamin-with-natural-ginseng-30-capsules-6.01-1749723066.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjBhSwHQjg41Q3_4z0CP50nC9yTXmUeHu5HQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYUrg3rroJGnNRyNMXhsZvnAyaRcK4LUBvJg&s"
     ]
   },
   {
@@ -233,10 +212,10 @@ const PRODUCTS = [
     "minGram": 500,
     "maxGram": 1000,
     "images": [
-      "https://via.placeholder.com/300x300?text=Shelcal+1",
-      "https://via.placeholder.com/300x300?text=Shelcal+2",
-      "https://via.placeholder.com/300x300?text=Shelcal+3",
-      "https://via.placeholder.com/300x300?text=Shelcal+4"
+      "https://cdn01.pharmeasy.in/dam/products_otc/K78299/shelcal-500mg-bottle-of-30-tablets-6.01-1754575084.jpg",
+      "https://d3plwh5kl8nxwl.cloudfront.net/Shelcal500_D3_02_01_1_a4c7c9bc1e.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdYt-t_WUZ5fHXrkW3WTWY_JCBcZwLuC9aFA&s",
+      "https://www.clinikally.com/cdn/shop/files/Shelcal500Calcium_VitaminD3Bone_MuscleHealthTablet40Tablets3.jpg?v=1769513427&width=1000"
     ]
   },
   {
@@ -248,10 +227,10 @@ const PRODUCTS = [
     "minGram": 200,
     "maxGram": 400,
     "images": [
-      "https://via.placeholder.com/300x300?text=Digene+1",
-      "https://via.placeholder.com/300x300?text=Digene+2",
-      "https://via.placeholder.com/300x300?text=Digene+3",
-      "https://via.placeholder.com/300x300?text=Digene+4"
+       "https://www.planethealth.in/image/cache/catalog/44578-500x500.png",
+      "https://distrapi.blob.core.windows.net/strapi-uploads/assets/Digene_Syrup_Uses_1122d05da1.webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEzvvHACyRq6SEUP5fvlqt3PdramdFd7dkKg&shttps://via.placeholder.com/300x300?text=Digene+2",
+       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwd0UmtqiYcUdW8dYAS9wm1FyDGD76ODnhfw&s"
     ]
   },
   {
@@ -263,10 +242,10 @@ const PRODUCTS = [
     "minGram": 150,
     "maxGram": 300,
     "images": [
-      "https://via.placeholder.com/300x300?text=Gelusil+1",
-      "https://via.placeholder.com/300x300?text=Gelusil+2",
-      "https://via.placeholder.com/300x300?text=Gelusil+3",
-      "https://via.placeholder.com/300x300?text=Gelusil+4"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY6lDgkMecTPb6LnsSZlPSFd9WnsCZkGzDIg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-O485m_DxGOwiz0XxaCmc822FRBMne1QDiA&s",
+      "https://images.apollo247.in/pub/media/catalog/product/G/E/GEL0002_3_1.jpg",
+
     ]
   },
   {
@@ -278,10 +257,10 @@ const PRODUCTS = [
     "minGram": 5,
     "maxGram": 10,
     "images": [
-      "https://via.placeholder.com/300x300?text=ENO+1",
-      "https://via.placeholder.com/300x300?text=ENO+2",
-      "https://via.placeholder.com/300x300?text=ENO+3",
-      "https://via.placeholder.com/300x300?text=ENO+4"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPTMArW7v51au2ulxPzfQVOOBHxK8IRGSfqA&s",
+      "https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/home/desktop/ENO-Range-short-desktop.jpg?auto=format",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmW9lUhokw3EpYfT1e916WCx4kP3le78SwA&s",
+      "https://www.bbassets.com/media/uploads/p/s/1220957_1-eno-fruit-salt-lemon.jpg"
     ]
   },
   {
@@ -293,10 +272,10 @@ const PRODUCTS = [
     "minGram": 500,
     "maxGram": 1000,
     "images": [
-      "https://via.placeholder.com/300x300?text=Metformin+1",
-      "https://via.placeholder.com/300x300?text=Metformin+2",
-      "https://via.placeholder.com/300x300?text=Metformin+3",
-      "https://via.placeholder.com/300x300?text=Metformin+4"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSS1IhwW1n9MrllE-zMXsoclUjakZydBKOww&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_LN92nC2WQP1T85KM3SBkcKNBYoUxkOfB3A&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWYy5dv8b1gIRFxoo-kABS5gzExi7MDRIGsg&s",
+      "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2023/11/diabetes_metformin_GettyImages526612260_Thumb.jpg"
     ]
   },
   {
@@ -308,162 +287,11 @@ const PRODUCTS = [
     "minGram": 500,
     "maxGram": 1000,
     "images": [
-      "https://via.placeholder.com/300x300?text=Glycomet+1",
-      "https://via.placeholder.com/300x300?text=Glycomet+2",
-      "https://via.placeholder.com/300x300?text=Glycomet+3",
-      "https://via.placeholder.com/300x300?text=Glycomet+4"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8J4I1ysTiLFfpX9feYxSdSqekR2YJXtmKpg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQboXM-FRUzFNPPxfb6yh8S5ICMvCpAwNK5lg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5mXkYMwOytGZ8BgPPo0X97Sca7zWR_Ln40g&s",
     ]
   },
-  {
-    "productId": "22",
-    "name": "Betadine",
-    "subSentence": "Antiseptic solution",
-    "description": "Betadine is an antiseptic used for wound care and skin disinfection.",
-    "price": 60,
-    "minGram": 100,
-    "maxGram": 500,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Betadine+1",
-      "https://via.placeholder.com/300x300?text=Betadine+2",
-      "https://via.placeholder.com/300x300?text=Betadine+3",
-      "https://via.placeholder.com/300x300?text=Betadine+4"
-    ]
-  },
-  {
-    "productId": "23",
-    "name": "Soframycin",
-    "subSentence": "Antibiotic skin cream",
-    "description": "Soframycin is an antibiotic cream used for skin infections and wounds.",
-    "price": 45,
-    "minGram": 20,
-    "maxGram": 50,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Soframycin+1",
-      "https://via.placeholder.com/300x300?text=Soframycin+2",
-      "https://via.placeholder.com/300x300?text=Soframycin+3",
-      "https://via.placeholder.com/300x300?text=Soframycin+4"
-    ]
-  },
-  {
-    "productId": "24",
-    "name": "Boroline",
-    "subSentence": "Healing cream",
-    "description": "Boroline is a cream used for cuts, burns, and skin irritations.",
-    "price": 30,
-    "minGram": 20,
-    "maxGram": 50,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Boroline+1",
-      "https://via.placeholder.com/300x300?text=Boroline+2",
-      "https://via.placeholder.com/300x300?text=Boroline+3",
-      "https://via.placeholder.com/300x300?text=Boroline+4"
-    ]
-  },
-  {
-    "productId": "25",
-    "name": "Dettol",
-    "subSentence": "Disinfectant liquid",
-    "description": "Dettol is a disinfectant used for cleaning wounds and surfaces.",
-    "price": 80,
-    "minGram": 125,
-    "maxGram": 500,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Dettol+1",
-      "https://via.placeholder.com/300x300?text=Dettol+2",
-      "https://via.placeholder.com/300x300?text=Dettol+3",
-      "https://via.placeholder.com/300x300?text=Dettol+4"
-    ]
-  },
-  {
-    "productId": "26",
-    "name": "Savlon",
-    "subSentence": "Antiseptic solution",
-    "description": "Savlon is used for first aid and antiseptic purposes.",
-    "price": 50,
-    "minGram": 100,
-    "maxGram": 500,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Savlon+1",
-      "https://via.placeholder.com/300x300?text=Savlon+2",
-      "https://via.placeholder.com/300x300?text=Savlon+3",
-      "https://via.placeholder.com/300x300?text=Savlon+4"
-    ]
-  },
-  {
-    "productId": "27",
-    "name": "Band-Aid",
-    "subSentence": "Adhesive bandages",
-    "description": "Band-Aid is used to cover and protect minor wounds.",
-    "price": 20,
-    "minGram": 20,
-    "maxGram": 50,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Band-Aid+1",
-      "https://via.placeholder.com/300x300?text=Band-Aid+2",
-      "https://via.placeholder.com/300x300?text=Band-Aid+3",
-      "https://via.placeholder.com/300x300?text=Band-Aid+4"
-    ]
-  },
-  {
-    "productId": "28",
-    "name": "Cetirizine",
-    "subSentence": "Antihistamine for allergies",
-    "description": "Cetirizine is used to relieve allergy symptoms like runny nose and sneezing.",
-    "price": 15,
-    "minGram": 10,
-    "maxGram": 20,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Cetirizine+1",
-      "https://via.placeholder.com/300x300?text=Cetirizine+2",
-      "https://via.placeholder.com/300x300?text=Cetirizine+3",
-      "https://via.placeholder.com/300x300?text=Cetirizine+4"
-    ]
-  },
-  {
-    "productId": "29",
-    "name": "Allegra",
-    "subSentence": "Allergy relief",
-    "description": "Allegra provides relief from seasonal allergies and hay fever.",
-    "price": 120,
-    "minGram": 120,
-    "maxGram": 180,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Allegra+1",
-      "https://via.placeholder.com/300x300?text=Allegra+2",
-      "https://via.placeholder.com/300x300?text=Allegra+3",
-      "https://via.placeholder.com/300x300?text=Allegra+4"
-    ]
-  },
-  {
-    "productId": "30",
-    "name": "Liv 52",
-    "subSentence": "Liver health syrup",
-    "description": "Liv 52 is a herbal syrup that supports liver function and detoxification.",
-    "price": 100,
-    "minGram": 100,
-    "maxGram": 200,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Liv+52+1",
-      "https://via.placeholder.com/300x300?text=Liv+52+2",
-      "https://via.placeholder.com/300x300?text=Liv+52+3",
-      "https://via.placeholder.com/300x300?text=Liv+52+4"
-    ]
-  },
-  {
-    "productId": "31",
-    "name": "Dexorange",
-    "subSentence": "Iron and vitamin syrup",
-    "description": "Dexorange syrup provides iron and vitamins to prevent anemia.",
-    "price": 90,
-    "minGram": 150,
-    "maxGram": 200,
-    "images": [
-      "https://via.placeholder.com/300x300?text=Dexorange+1",
-      "https://via.placeholder.com/300x300?text=Dexorange+2",
-      "https://via.placeholder.com/300x300?text=Dexorange+3",
-      "https://via.placeholder.com/300x300?text=Dexorange+4"
-    ]
-  }
 ];
 
 export default PRODUCTS;
