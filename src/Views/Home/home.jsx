@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Home.css';
 import Navbar from "../../Components/Navbar/navbar";
+import Footer from "../../Components/Footer/footer.jsx";
 
 const Home = () => {
   const [cartCount, setCartCount] = useState(0);
@@ -212,7 +213,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-     
+     <Footer />
     </div>
   );
 };

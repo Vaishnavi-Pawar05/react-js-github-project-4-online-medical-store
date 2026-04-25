@@ -107,5 +107,6 @@
   border: none;
   height: 1px;
   background-color:white;
-  margin: 20px 0;
+  /* margin: 20px 0; */
+  margin-top: 5px;
 }

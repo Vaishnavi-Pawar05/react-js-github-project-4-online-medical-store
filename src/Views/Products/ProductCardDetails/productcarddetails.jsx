@@ -2,6 +2,7 @@ import { useParams } from "react-router";
 import { useState } from "react";
 import PRODUCTS from "../../data.js";
 import Navbar from "../../../Components/Navbar/navbar.jsx";
+import Footer from "../../../Components/Footer/footer.jsx";
 import Button from "../../../components/Button/button.jsx";
 import { useNavigate } from "react-router";
 import "./productcarddetails.css";
@@ -80,6 +81,7 @@ function ProductCardDetails() {
                     />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

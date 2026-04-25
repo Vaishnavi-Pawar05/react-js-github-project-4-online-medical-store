@@ -2,8 +2,7 @@ import { useState } from "react";
 import { AlertCircle } from "lucide-react";
 import "./order.css";
 import Navbar from "../../Components/Navbar/navbar";
-// import { useParams } from "react-router-dom";
-// import PRODUCTS from "../../data.js";
+import Footer from "../../Components/Footer/footer.jsx";
 
 export default function Order() {
 const storedOrder = JSON.parse(localStorage.getItem("order"));
@@ -154,6 +153,7 @@ const total = product.totalPrice + 20;
 
         </div>
       </div>
+      <Footer />
     </>
   );
 }
