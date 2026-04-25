@@ -4,15 +4,16 @@
     justify-content: space-between;
 }
 .product-detail-images{
-    /* background-color: aqua; */
     padding-right: 0px;
     display: flex;
     flex-direction: column;
     width: 800px;
+    margin-top: 30px;
 }
 .product-details-info{
     margin-left: 20px;
-    /* background-color: rgb(238, 238, 238);    */
+    background-color: rgb(238, 238, 238);   
+    margin-top: 30px;
     width: 1000px;
 }
 .deatailpage-product-image{
@@ -44,11 +45,11 @@
     border-color: #2e7d32;
 }
 
-.buy-now-btn{
+/* .buy-now-btn{
     cursor:pointer;
     background-color: rgb(74, 74, 117);
     color:white;
     border:none;
     text-align: center;
     font-weight: 3px;
-}
+} */

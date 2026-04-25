@@ -2,7 +2,7 @@ import PRODUCTS from "../data.js";
 import "./products.css";
 import { useState, useEffect } from "react";
 import ProductCard from "./ProductCard/productcard.jsx";
-import Navbar from "../../components/Navbar/navbar.jsx";
+import Navbar from "../../Components/Navbar/navbar.jsx";
 import Input from "../../Components/Input/input.jsx";
 import{ Heading} from "../../Components/Heading/heading.jsx";
 

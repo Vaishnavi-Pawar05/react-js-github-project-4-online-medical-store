@@ -8,8 +8,9 @@
     justify-self: center;
     font-size: 20px;
     font-weight:5px;
-    background-color: #95a7cd; 
+    background-color: #b5e8ca; 
 }
-.placeholder{
-    color:White;
+.input-field:hover{
+    box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.2);
+     background: #53ad67;
 }

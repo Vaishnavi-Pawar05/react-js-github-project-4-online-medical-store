@@ -11,7 +11,7 @@ function ProductCard({ product }) {
             <img src={product.images?.[0]} alt={product.name} className="product-image" />
             <p className="product-card-title">{product.name}</p>
             <p>{product.subSentence}</p>
-            <p> <b>Price:</b> ${product.price.toFixed(2)}</p>
+            <p  className="productcard-price"> <b>Price:</b> ${product.price.toFixed(2)}</p>
 
             <Button title={"Know More"} className="know-more-btn" onClick={() =>
                 navigate(`/products/${product.productId}`)
