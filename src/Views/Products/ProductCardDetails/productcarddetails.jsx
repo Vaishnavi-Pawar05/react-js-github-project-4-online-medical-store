@@ -7,6 +7,7 @@ import Button from "../../../components/Button/button.jsx";
 import { useNavigate } from "react-router";
 import "./productcarddetails.css";
 import Order from "../../Order/order.jsx";
+import toast, { Toaster } from "react-hot-toast";
 
 function ProductCardDetails() {
     const { productId } = useParams();
@@ -27,9 +28,10 @@ function ProductCardDetails() {
     }
 
     let navigate = useNavigate();
-
+   
     return (
         <div className="product-details">
+            <Toaster position="top-center" />
             <Navbar />
             <div className="product-all-info">
                 <div className="product-detail-images">
@@ -64,7 +66,7 @@ function ProductCardDetails() {
                         onClick={() => {
 
                             if (count === 0) {
-                                alert("Please select quantity");
+                                toast.error("Please select quantity");
                                 return; 
                             }
                             const orderData = {
