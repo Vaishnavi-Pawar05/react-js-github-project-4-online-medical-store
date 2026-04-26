@@ -94,7 +94,7 @@ const Home = () => {
                   <p className="product-desc">{product.description}</p>
 
                   <h4 className="product-price">
-                    <b>Price:</b> ${(product.price * (qty || 1)).toFixed(2)}
+                   
                   </h4>
 
                   <div className="quantity-controls">
