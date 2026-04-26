@@ -1,31 +1,27 @@
-.btn{
-    width: 80px;
-    height: 30px;
-    /* background-color: rgb(0, 128, 0); */
-    border-radius: 10px;
+btn{
+    border-radius: 7px;
+    background-color: #2e7d32;
+    border: none;
 }
-.know-more-btn{
-    cursor:pointer;
-    background-color:  #2e7d32;
-    color:white;
-    border:none;
-    text-align: center;
-    font-weight: 3px;
-    margin-top: 10px;
-}
-.know-more-btn:hover{
-    background: #218838;
-}
-
 .buy-now-btn{
-    cursor:pointer;
-    background-color:  #2e7d32;
-    color:white;
-    border:none;
+    margin-left: 10px;
+    height: 30px;
+    color: white;
+   padding: 8px;
     text-align: center;
-    font-weight: 3px;
-    margin-left: 8px;
+    font-size: 14px;
 }
 .buy-now-btn:hover{
-    background: #218838;
+    background-color:#218838;
+}
+.know-more-btn{
+    margin-left: 10px;
+    height: 30px;
+    color: white;
+   padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+.know-more-btn:hover{
+    background-color:#218838;
 }

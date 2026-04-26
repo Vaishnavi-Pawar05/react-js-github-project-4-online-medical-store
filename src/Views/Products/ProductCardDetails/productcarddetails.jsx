@@ -2,11 +2,11 @@ import { useParams } from "react-router";
 import { useState } from "react";
 import PRODUCTS from "../../data.js";
 import Navbar from "../../../Components/Navbar/navbar.jsx";
-import Footer from "../../../Components/Footer/footer.jsx";
-import Button from "../../../components/Button/button.jsx";
+import Footer from "../../../Components/footer/footer.jsx";
+import Button from "../../../Components/button/button.jsx";
 import { useNavigate } from "react-router";
 import "./productcarddetails.css";
-import Order from "../../Order/order.jsx";
+import Order from "../../order/order.jsx";
 import toast, { Toaster } from "react-hot-toast";
 
 function ProductCardDetails() {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
 import Navbar from "../../Components/Navbar/navbar.jsx";
-import Footer from "../../Components/Footer/footer.jsx";
+import Footer from "../../Components/footer/footer.jsx";
 import { Link } from "react-router-dom";
 
 const Home = () => {

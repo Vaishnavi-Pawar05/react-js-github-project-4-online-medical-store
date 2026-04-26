@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { AlertCircle } from "lucide-react";
 import "./order.css";
-import Navbar from "../../Components/Navbar/navbar";
-import Footer from "../../Components/Footer/footer.jsx";
+import Navbar from "../../Components/Navbar/navbar.jsx";
+import Footer from "../../Components/footer/footer.jsx";
 
 export default function Order() {
 const storedOrder = JSON.parse(localStorage.getItem("order"));

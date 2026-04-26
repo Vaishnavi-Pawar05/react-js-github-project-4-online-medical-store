@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import "./productcard.css";
-import Button from "./../../../components/Button/button.jsx";
+import Button from "../../../Components/button/button.jsx";
 
 function ProductCard({ product }) {
     let navigate = useNavigate();

@@ -1,11 +1,11 @@
 import PRODUCTS from "../data.js";
 import "./products.css";
 import { useState, useEffect } from "react";
-import ProductCard from "./ProductCard/productcard.jsx";
+import ProductCard from "./productCard/productcard.jsx";
 import Navbar from "../../Components/Navbar/navbar.jsx";
-import Footer from "../../Components/Footer/footer.jsx";
-import Input from "../../Components/Input/input.jsx";
-import{ Heading} from "../../Components/Heading/heading.jsx";
+import Footer from "../../Components/footer/footer.jsx";
+import Input from "../../Components/input/input.jsx";
+import{ Heading} from "../../Components/heading/heading.jsx";
 
 function Products() {
   const [products, setProducts] = useState(PRODUCTS || []);

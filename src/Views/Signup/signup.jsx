@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Eye, EyeOff, Mail, Lock, User, AlertCircle } from "lucide-react";
 import "./signup.css";
-import Navbar from "../../Components/Navbar/navbar";
-import Footer from "../../Components/Footer/footer.jsx";
+import Navbar from "../../Components/Navbar/navbar.jsx";
+import Footer from "../../Components/footer/footer.jsx";
 
 const validateEmail = (email) => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
