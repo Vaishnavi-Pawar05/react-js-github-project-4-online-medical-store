@@ -122,7 +122,7 @@ const Home = () => {
         <div className="about-wrapper">
 
           <div className="about-img">
-            <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&q=80" alt="Medical Store" />
+            <img src="https://zelifehealthcare.com/wp-content/uploads/2025/06/pharmacy.png" alt="Medical Store" />
           </div>
 
           <div className="about-text">
