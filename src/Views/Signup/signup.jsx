@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Eye, EyeOff, Mail, Lock, User, AlertCircle } from "lucide-react";
+import { useNavigate, Link } from "react-router-dom";
 import "./signup.css";
 import Navbar from "../../Components/Navbar/navbar.jsx";
 import Footer from "../../Components/footer/footer.jsx";
@@ -14,6 +15,8 @@ const validatePassword = (password) => {
 };
 
 export default function SignupPage() {
+  const navigate = useNavigate(); // 🔥 important
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -24,7 +27,7 @@ export default function SignupPage() {
   const [error, setError] = useState("");
 
   const handleSignup = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // 🔥 refresh stop
     setError("");
 
     if (!name || !email || !password || !confirmPassword) {
@@ -51,7 +54,7 @@ export default function SignupPage() {
 
     setTimeout(() => {
       alert("Signup Successful 🎉");
-      window.location.href = "/login";
+      navigate("/login"); // 🔥 no refresh
       setLoading(false);
     }, 500);
   };
@@ -155,11 +158,12 @@ export default function SignupPage() {
 
           <div className="signup-line">
             Already have an account?{" "}
-            <a href="/login">Login</a>
+            <Link to="/login">Login</Link>
           </div>
 
         </div>
       </div>
+
       <Footer />
     </>
   );
